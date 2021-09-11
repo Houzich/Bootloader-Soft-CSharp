@@ -1,0 +1,10 @@
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\bin\Debug\Bootloader.exe.config
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\bin\Debug\Bootloader.exe
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\bin\Debug\Bootloader.pdb
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.csprojResolveAssemblyReference.cache
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.Form1.resources
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.Properties.Resources.resources
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.csproj.GenerateResource.Cache
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.csproj.CoreCompileInputs.cache
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.exe
+D:\BOOTLOADER_F4\BOOTLOADER_SOFT\Bootloader_C\Bootloader\obj\Debug\Bootloader.pdb
