@@ -1,4 +1,4 @@
-Ôªø#define DEBUG
+#define DEBUG
 
 using System;
 using System.Collections.Generic;
@@ -561,12 +561,12 @@ namespace Bootloader
                     curr_byte += 32;
                     curr_address += 32;
 
-                    byte —Åhecksum = 0;
+                    byte Òhecksum = 0;
                     for (int i = 1; i < st.Length; i += 2)
-                        —Åhecksum += Convert.ToByte(st.Substring(i, 2), 16);
-                    —Åhecksum = (byte)(~—Åhecksum + 0x01);
+                        Òhecksum += Convert.ToByte(st.Substring(i, 2), 16);
+                    Òhecksum = (byte)(~Òhecksum + 0x01);
 
-                    st += —Åhecksum.ToString("X2");
+                    st += Òhecksum.ToString("X2");
                     lines = lines.Concat(new string[] { st }).ToArray();
                 }
             }
@@ -651,7 +651,7 @@ namespace Bootloader
         {
             if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
                 return;
-            // –ø–æ–ª—É—á–∞–µ–º –≤—ã–±—Ä–∞–Ω–Ω—ã–π —Ñ–∞–π–ª
+            // ÔÓÎÛ˜‡ÂÏ ‚˚·‡ÌÌ˚È Ù‡ÈÎ
             string filename = openFileDialog1.FileName;
             textBox_File_Name_Write.Text = filename;
             Check_Form_State();
@@ -937,3 +937,4 @@ namespace Bootloader
         }
     }
 }
+
