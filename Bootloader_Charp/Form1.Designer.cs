@@ -1,4 +1,4 @@
-﻿namespace Bootloader
+namespace Bootloader
 {
     partial class Form1
     {
@@ -1195,4 +1195,5 @@
         private System.Windows.Forms.Label label6;
     }
 }
+
 
