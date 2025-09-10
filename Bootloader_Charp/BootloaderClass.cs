@@ -1,4 +1,4 @@
-Ôªøusing System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -115,12 +115,12 @@ namespace BootloaderInterface
             st = line.Substring(position, 2);
             Checksum = Convert.ToByte(st, 16);
 
-            byte —Åhecksum = 0;
+            byte Òhecksum = 0;
             for (int i = 1; i < position; i+=2)
-                —Åhecksum += Convert.ToByte(line.Substring(i, 2), 16);
-            —Åhecksum = (byte)(~—Åhecksum + 0x01);
+                Òhecksum += Convert.ToByte(line.Substring(i, 2), 16);
+            Òhecksum = (byte)(~Òhecksum + 0x01);
 
-            if (—Åhecksum!= Checksum)
+            if (Òhecksum!= Checksum)
             {
                 Set_Error(HEX_Parse_Error.ERROR_CHECKSUM);
                 return HEX_Record_Type.ERROR;
@@ -1221,4 +1221,5 @@ namespace BootloaderInterface
 
     }
 }
+
 
